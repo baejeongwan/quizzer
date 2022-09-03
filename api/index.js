@@ -5,7 +5,7 @@ const app = express();
 const port = 80;
 const hostname = "localhost";
 
-app.use(express.static(path.join(__dirname, "serve")));
+app.use('/api',express.static(path.join(__dirname, "serve")));
 
 app.listen(process.env.SERVE_PORT || port, process.env.SERVE_HOSTNAME || hostname, (() => {
     console.log("Successfully initializd server as port", process.env.PORT || 80, "and hosting as", hostname);
