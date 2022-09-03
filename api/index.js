@@ -14,3 +14,5 @@ app.listen(process.env.SERVE_PORT || port, process.env.SERVE_HOSTNAME || hostnam
         //\x1b[XXm
     }
 }))
+
+module.exports = app;
