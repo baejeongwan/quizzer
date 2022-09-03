@@ -1,0 +1,34 @@
+{
+    "quizName": "Sample Quiz",
+    "highestScore": "3",
+    "quiz": [
+        {
+            "type": "truefalse",
+            "question": "Check true",
+            "answer": true
+        },
+        {
+            "type": "textinput",
+            "question": "Input ANSWER",
+            "answer": "ANSWER"
+        },
+        {
+            "type": "radio",
+            "question": "Check answer",
+            "options": [
+                {
+                    "text": "answer",
+                    "value": "Answer"
+                },
+                {
+                    "text": "a",
+                    "value": "else1"
+                },
+                {
+                    "text": "b",
+                    "value": "else2"
+                }
+            ]
+        }
+    ]
+}

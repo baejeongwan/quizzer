@@ -1,0 +1,8 @@
+[
+    {
+        "quizName": "퀴즈 이름",
+        "description": "설명. 어쩌구저쩌구",
+        "ref": "/quiz/data/quizdata.json",
+        "id": "quiz1"
+    }
+]
